@@ -1,0 +1,12 @@
+<!-- <h1>Vacanies List for {{company?.name}}:</h1> -->
+
+<ul >
+    <li *ngFor="let vacancy of vacancies">
+      <p>ID: {{ vacancy.id }}</p>
+      <p>Name: {{vacancy.name}}</p>
+      <p>Description: {{ vacancy.description }}</p>
+      <p>City: {{ vacancy.salary }}</p>
+      <p>Company_id: {{ vacancy.company_id }}</p>
+    </li>
+</ul>
+<router-outlet></router-outlet>
